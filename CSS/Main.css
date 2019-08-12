@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: quang;
+    src: url("../fonts/Oswald-SemiBold.ttf");
+}
+@font-face {
+    font-family: quang1;
+    src: url("../fonts/Oswald-Light.ttf")
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.wow:first-child {
+      visibility: hidden;
+}
+
+
+
+
+
+.outer {
+    width: 1280px;
+    height: 4290px;
+    background-color: #3E3D3D;
+    margin: 0 auto
+}
+.header {
+    height: 800px;
+    width: 1280px;
+    background-image: url("../images/Logo_01.jpg");
+}
+.menu {
+    width: 900px;
+    height: 100px;
+    margin-left: 300px;
+    padding: 35px;
+    position: relative
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    float: left;
+    padding: 20px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: aliceblue
+}
+.menu ul li:hover a {
+    color: aqua
+}
+.services {
+    width: 1280px;
+    height: 440px;
+    background: #3265da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.options {
+    width: 220px;
+    height: 300px;
+    margin: 10px;
+    background: #4675dd;
+    float: left;
+}
+.pics {
+    height: 100px;
+    width: 220px
+}
+.content {
+    width: 80%;
+    height: 180px;
+    padding: 0px 10%;
+    font-size: 9px;
+    margin: 0 auto
+}
+.midle {
+    width: 1280px;
+    height: 900px;
+    background-color: #ffffff
+}
+.line {
+    height: 150px;
+    width: 100%
+}
+.contaner {
+    width: 900px;
+    height: 320px;
+    margin: 0 190px;
+}
+.image1 {
+    height: 80%;
+    width: 400px;
+    float: right
+}
+.content1 {
+    height: 80%;
+    width: 420px;
+    padding: 30px;
+    font-family: quang1;
+    color: #000000;
+    font-size: 25px;
+    float: left
+}
+.botton {
+    background-color: #D39504;
+    border: none;
+    color: #181818;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 25px;
+    margin: 15px 0px;
+    cursor: pointer
+}
+.botton:hover p {
+    color: #ffffff
+}
+.botton1 {
+    background-color: #F5F3F3;
+    border: solid #D1D1D1 1px;
+    color: #1E1E1E;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 25px;
+    margin: 15px 0px;
+    cursor: pointer
+}
+.botton1:hover p {
+    color: #C6C92C
+}
+.containerr {
+    width: 900px;
+    height: 230px;
+    margin: 0px auto;
+}
+.containerrr {
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+.icon {
+    width: 60px;
+    height: 100%;
+    font-size: 50px;
+    float: left;
+    padding-top: 50px
+}
+.content4 {
+    width: 240px;
+    height: 100%;
+    float: right;
+    padding: 40px;
+    color: #131313;
+    font-family: quang1
+}
+.a {
+    width: 1280px;
+    height: 270px;
+}
+.b {
+    width: 1280px;
+    height: 560px;
+    background-color: white
+}
+.contaner {
+    width: 900px;
+    height: 320px;
+    margin: 0 190px;
+}
+.content2 {
+    height: 100%;
+    width: 420px;
+    padding-left: 50px;
+    font-family: quang1;
+    color: #000000;
+    font-size: 25px;
+    float: right
+}
+.image2 {
+    height: 100%;
+    width: 400px;
+    float: left
+}
+.line2 {
+    width: 1280px;
+    height: 75px;
+    background-color: white
+}
+.c {
+    width: 1280px;
+    height: 265px;
+    background-color: #CDC9C9;
+}
+.content3 {
+    font-family: quang1;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 80px;
+}
+.d {
+    width: 1280px;
+    height: 240px
+}
+.e {
+    width: 1280px;
+    height: 485px;
+    background-color: #1A347B
+}
+.f {
+    width: 1280px;
+    height: 350px;
+    background-color: #252525
+}
+.menu1 {
+    width: 900px;
+    height: 100px;
+    margin: 0 250px;
+    padding: 100px;
+}
+.menu1 ul {
+    list-style: none;
+}
+.menu1 ul li {
+    float: left;
+    padding: 20px;
+}
+.menu1 ul li a {
+    text-decoration: none;
+    color: aliceblue
+}
+.menu1 ul li:hover a {
+    color: aqua
+}
+.containerr1 {
+    width: 900px;
+    height: 230px;
+    margin: 0px auto;
+}
+.containerrr1 {
+    padding: 80px;
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+.mySlides {
+    display: none
+}
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer
+}
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
